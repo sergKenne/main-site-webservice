@@ -1,4 +1,139 @@
-//
-body {
-  background-color: #ff0;
+
+.header {
+  background: rgba(254, 230, 216, 0.55);
+  backdrop-filter: blur(4px);
+  height: 5.375rem;
+  &__content {
+    display: flex;
+    align-items: center;
+    height: 5.375rem;
+  }
+  &__navbar {
+    margin-left: 1.6875rem;
+  }
+  &__contact {
+    margin-left: auto;
+  }
+  &__contact-item {
+    position: relative;
+    &:hover .header__contact-sub-list {
+      display: block;
+    }
+  }
+  &__contact-sub-list {
+    display: none;
+    position: absolute;
+    //left: 0;
+    right: 0;
+    top: 51px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(4px);
+    border-radius: 0px 0px 2px 2px;
+    padding: 10px 0;
+  }
+  &__contact-sub-item {
+    margin-bottom: 10px;
+  }
+  &__contact-sub-link {
+    font-weight: 400;
+    font-size: 1rem;
+    color: $blue;
+    padding: 5px 16px;
+    display: block;
+    white-space: nowrap;
+    line-height: 21.17px;
+    &:hover {
+      background: #FFBB8C;
+    }
+  }
+  &__location-icon {
+    width: 19px;
+    height: 24px;
+  }
+  &__phone-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+  &__bars-icon {
+    width: 28px;
+    height: 12px;
+    cursor: pointer;
+  }
+  &__close-icon {
+    width: 23px;
+    height: 24px;
+  }
+  &__contact {
+    display: flex;
+    align-items: center;
+  }
+  &__contact-item {
+    margin-left: 2.125rem;
+  }
+  &__inner-phone {
+    display: flex;
+    align-items: center;
+  }
+  &__inner-icon {
+    display: flex;
+    align-items: center;
+  }
+}
+
+//NAVBAR
+.navbar {
+  &__list {
+    display: flex;
+  }
+  &__item {
+    margin-right: 1.125rem;
+    height: 5.375rem;
+    position: relative;
+    &:hover .navbar__sub-list {
+      display: block;
+    }
+  }
+  &__link {
+    color: $blue;
+    font-weight: 700;
+    font-size: 0.875rem;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: block;
+    height: 100%;
+    line-height: 86px;
+    transition: all .2s linear;
+    &:hover {
+      background: linear-gradient(0deg, #D56316 0%, rgba(213, 99, 22, 0) 100%);
+    }
+  }
+  &__sub-list {
+    display: none;
+    position: absolute;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(4px);
+    border-radius: 0px 0px 2px 2px;
+    padding: 10px 0;
+  }
+  &__sub-item {
+    margin-bottom: 10px;
+  }
+  &__sub-link {
+    font-weight: 400;
+    font-size: 1rem;
+    color: $blue;
+    padding: 5px 16px;
+    display: block;
+    white-space: nowrap;
+    line-height: 21.17px;
+    &:hover {
+      background: #FFBB8C;
+    }
+
+  }
+  &__sub-contact-list {
+    //display: none;
+  }
 }

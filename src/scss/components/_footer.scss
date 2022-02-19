@@ -1,0 +1,68 @@
+.footer {
+    //height: 260px;
+    background: rgba(254, 230, 216, 0.55);
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        margin-top: 1.125rem;
+    }
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.6875rem;
+    }
+    &__logo-title {
+        margin-top: 1.56rem;
+        font-weight: 600;
+        color: $blue
+    }
+    &__logo-text {
+        margin-top: 1.125rem;
+        font-weight: 300;
+        &--blur {
+            color:#A8A8A8;
+        }
+    }
+    &__location-icon {
+        width: 20px;
+        height: 25px;
+        margin-right: 4px;
+    }
+    &__global-icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+    }
+    &__social-icon {
+        width: 24px;
+        height: 24px;
+    }
+    &__list {
+        margin-left: 3rem;
+    }
+    &__inner-icon {
+        display: flex;
+        align-items: center;
+    }
+    &__title {
+        font-family: ConthraxSB;
+        font-weight: 600;
+        font-size: .875rem;
+        color: $blue;
+        margin-bottom: 1.375rem;
+    }
+    &__item {
+        margin-bottom: 1.25rem;
+    }
+    &__link {
+        font-weight: 300;
+        font-size: .875rem;
+        color: $black;
+        line-height: 19px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
