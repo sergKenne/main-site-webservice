@@ -9,6 +9,7 @@
   <meta name="theme-color" content="#111111">
   <title>Web Service</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/vendor.css">
@@ -21,30 +22,30 @@
     <main>
       @include('partials/banner.html')
 
-      <div class="row">
+      <div class="blog">
         <div class="container">
-          <h2 class="row__title">О нас</h2>
+          <h2 class="blog__title">О нас</h2>
         </div>
-        <div class="row__content">
+        <div class="blog__content">
           <div class="container">
-            <div class="row__inner row__inner--about">
-              <img src="img/row-about.svg" alt="" class="row__about-img">
-              <div class="row__description">
-                <p class="row__text"><span class="row__text--color">Digital-агентство</span> полного цикла с упором на веб-разработку и создание сложных проектов. Знаем, как сделать так, чтобы сайт был не только удобным, но и красивым.</p>
-                <button class="btn row__btn">Обсудить проект</button>
+            <div class="blog__inner blog__inner--about">
+              <img src="img/blog-about.svg" alt="" class="blog__img">
+              <div class="blog__description">
+                <p class="blog__text"><span class="blog__text--color">Digital-агентство</span> полного цикла с упором на веб-разработку и создание сложных проектов. Знаем, как сделать так, чтобы сайт был не только удобным, но и красивым.</p>
+                <button class="btn blog__btn">Обсудить проект</button>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="row">
+      <div class="blog">
         <div class="container">
-          <h2 class="row__title">Этапы работы</h2>
+          <h2 class="blog__title">Этапы работы</h2>
         </div>
-        <div class="row__content row__content--work">
+        <div class="blog__content blog__content--work">
           <div class="container">
-            <div class="row__inner row__inner--work">
+            <div class="blog__inner blog__inner--work">
               <img src="img/work-slide1.png" alt="">
               
             </div>
@@ -52,43 +53,43 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="blog">
         <div class="container">
-          <h2 class="row__title">Портфолио</h2>
+          <h2 class="blog__title">Портфолио</h2>
         </div>
-        <div class="row__content">
+        <div class="blog__content">
           <div class="container">
-            <div class="row__inner">
-              <div class="row__nav">
-                <button class="btn row__nav-item active">Все сайты</button>
-                <button class="btn row__nav-item">Медиа портал</button>
-                <button class="btn row__nav-item">ERP-система</button>
-                <button class="btn row__nav-item">Корпоративный сайт</button>
-                <button class="btn row__nav-item">Веб-сайт</button>
+            <div class="blog__inner">
+              <div class="blog__nav">
+                <button class="btn blog__nav-item active">Все сайты</button>
+                <button class="btn blog__nav-item">Медиа портал</button>
+                <button class="btn blog__nav-item">ERP-система</button>
+                <button class="btn blog__nav-item">Корпоративный сайт</button>
+                <button class="btn blog__nav-item">Веб-сайт</button>
               </div>
-              <div class="row__portfolio">
-                <div class="row__portfolio-item">
-                  <img src="img/portfolio1.svg" alt="" class="row__portfolio-img">
-                  <div class="row__portfolio-over">
-                    <h4 class="row__portfolio-title">Карелия Гид</h4>
-                    <p class="row__portfolio-text">Веб-сайт</p>
-                    <button class="btn row__portfolio-btn"><span>Смотреть</span><svg class="row__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
+              <div class="blog__portfolio">
+                <div class="blog__portfolio-item">
+                  <img src="img/portfolio1.svg" alt="" class="blog__portfolio-img">
+                  <div class="blog__portfolio-over">
+                    <h4 class="blog__portfolio-title">Карелия Гид</h4>
+                    <p class="blog__portfolio-text">Веб-сайт</p>
+                    <button class="btn blog__portfolio-btn"><span>Смотреть</span><svg class="blog__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
                   </div>
                 </div>
-                <div class="row__portfolio-item">
-                  <img src="img/portfolio2.svg" alt="" class="row__portfolio-img">
-                  <div class="row__portfolio-over">
-                    <h4 class="row__portfolio-title">Карелия Гид</h4>
-                    <p class="row__portfolio-text">Веб-сайт</p>
-                    <button class="btn row__portfolio-btn"><span>Смотреть</span><svg class="row__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
+                <div class="blog__portfolio-item">
+                  <img src="img/portfolio2.svg" alt="" class="blog__portfolio-img">
+                  <div class="blog__portfolio-over">
+                    <h4 class="blog__portfolio-title">Карелия Гид</h4>
+                    <p class="blog__portfolio-text">Веб-сайт</p>
+                    <button class="btn blog__portfolio-btn"><span>Смотреть</span><svg class="blog__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
                   </div>
                 </div>
-                <div class="row__portfolio-item">
-                  <img src="img/portfolio1.svg" alt="" class="row__portfolio-img">
-                  <div class="row__portfolio-over">
-                    <h4 class="row__portfolio-title">Карелия Гид</h4>
-                    <p class="row__portfolio-text">Веб-сайт</p>
-                    <button class="btn row__portfolio-btn"><span>Смотреть</span><svg class="row__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
+                <div class="blog__portfolio-item">
+                  <img src="img/portfolio1.svg" alt="" class="blog__portfolio-img">
+                  <div class="blog__portfolio-over">
+                    <h4 class="blog__portfolio-title">Карелия Гид</h4>
+                    <p class="blog__portfolio-text">Веб-сайт</p>
+                    <button class="btn blog__portfolio-btn"><span>Смотреть</span><svg class="blog__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
                   </div>
                 </div>
               </div>
@@ -97,95 +98,310 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="blog">
         <div class="container">
-          <h2 class="row__title">Продукты</h2>
+          <h2 class="blog__title">Продукты</h2>
         </div>
-        <div class="row__content">
+        <div class="blog__content">
           <div class="container">
-            <div class="row__inner row__inner--product">
-              <img src="img/prod.svg" alt="" class="row__about-img">
-              <div class="row__description">
-                <h3 class="row__subtitle">ERP-система</h3>
-                <p class="row__text row__text--product">Единый комплекс, в котором хранятся и обрабатываются практически все критически 
+            <div class="blog__inner blog__inner--product">
+              <img src="img/prod.svg" alt="" class="blog__about-img">
+              <div class="blog__description">
+                <h3 class="blog__subtitle">ERP-система</h3>
+                <p class="blog__text blog__text--product">Единый комплекс, в котором хранятся и обрабатываются практически все критически 
 важные данные организации. Под ними понимают информацию, без которой нормальное функционирование предприятия невозможно.</p>
-                <p class="row__text row__text--strong">Решение, позволяющее бесшовно управлять и организовывать как управление ресурсами предприятия, так и документооборот.</p>
-                <button class="btn row__portfolio-btn row__portfolio-btn--left"><span>Смотреть</span><svg class="row__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
+                <p class="blog__text blog__text--strong">Решение, позволяющее бесшовно управлять и организовывать как управление ресурсами предприятия, так и документооборот.</p>
+                <button class="btn blog__portfolio-btn blog__portfolio-btn--left"><span>Смотреть</span><svg class="blog__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="row">
+      <div class="blog">
         <div class="container">
-          <h2 class="row__title">Услуги</h2>
-          <p class="row__sub-description">Специализируемся на сложных процессах и точечных решениях для вашего бизнеса.</p>
+          <h2 class="blog__title">Услуги</h2>
+          <p class="blog__sub-description">Специализируемся на сложных процессах и точечных решениях для вашего бизнеса.</p>
         </div>
-        <div class="row__content">
+        <div class="blog__content">
           <div class="container">
-            <div class="row__inner row__inner--service">
-              <div class="row__service">
-                <h4 class="row__service-title">Разрабатываем</h4>
-                <p class="row__service-text">
+            <div class="blog__inner blog__inner--service">
+              <div class="blog__service">
+                <h4 class="blog__service-title">Разрабатываем</h4>
+                <p class="blog__service-text">
                   <span>Корпоративные сайты</span>
-                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                  <svg class="blog__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
                 </p>
-                <p class="row__service-text">
+                <p class="blog__service-text">
                   <span>Интернет-магазины</span>
-                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                  <svg class="blog__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
                 </p>
-                <p class="row__service-text">
+                <p class="blog__service-text">
                   <span>ERP-системы</span>
-                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                  <svg class="blog__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
                 </p>
-                <div class="row__center-btn">
-                  <svg class="row__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                <div class="blog__center-btn">
+                  <svg class="blog__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
                 </div>
               </div>
-              <div class="row__service">
-                <h4 class="row__service-title">Тестируем</h4>
-                <p class="row__service-text">
+              <div class="blog__service">
+                <h4 class="blog__service-title">Тестируем</h4>
+                <p class="blog__service-text">
                   <span>Администрирование</span>
-                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                  <svg class="blog__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
                 </p>
-                <p class="row__service-text">
+                <p class="blog__service-text">
                   <span>Функциональное тестирование</span>
-                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                  <svg class="blog__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
                 </p>
-                <p class="row__service-text">
+                <p class="blog__service-text">
                   <span>Развитие существующих Web-приложений</span>
-                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                  <svg class="blog__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
                 </p>
-                <div class="row__center-btn">
-                  <svg class="row__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                <div class="blog__center-btn">
+                  <svg class="blog__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
                 </div>
               </div>
-              <div class="row__service">
-                <h4 class="row__service-title">Повышаем эффективность</h4>
-                <p class="row__service-text">
+              <div class="blog__service">
+                <h4 class="blog__service-title">Повышаем эффективность</h4>
+                <p class="blog__service-text">
                   <span>Внедрение CRM</span>
-                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                  <svg class="blog__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
                 </p>
-                <p class="row__service-text">
+                <p class="blog__service-text">
                   <span>Внедрение систем учета</span>
-                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                  <svg class="blog__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
                 </p>
-                <p class="row__service-text">
+                <p class="blog__service-text">
                   <span>Автоматизация бизнес-процессов</span>
-                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                  <svg class="blog__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
                 </p>
-                <div class="row__center-btn">
-                  <svg class="row__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                <div class="blog__center-btn">
+                  <svg class="blog__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="blog">
+        <div class="container">
+          <h2 class="blog__title">Цена</h2>
+        </div>
+        <div class="blog__content">
+          <div class="container">
+            <div class="blog__inner blog__inner--price">
+              <div class="blog__service blog__service--price">
+                <h4 class="blog__service-title">Наш продукт</h4>
+                <div class="blog__service-card">
+                  <svg class="blog__service-icon blog__service-icon--card"><use xlink:href="img/sprites.svg#cart-price"></use></svg>
+                </div>
+                <p class="blog__service-text">
+                  <svg class="blog__service-icon blog__service-icon--price"><use xlink:href="img/sprites.svg#check"></use></svg>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__service-text">
+                  <svg class="blog__service-icon blog__service-icon--price"><use xlink:href="img/sprites.svg#check"></use></svg>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__service-text">
+                  <svg class="blog__service-icon blog__service-icon--price"><use xlink:href="img/sprites.svg#check"></use></svg>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__price">от 300$</p>
+                <button class="btn blog__portfolio-btn blog__portfolio-btn--left">Подробнее</button>
+                <div class="blog__center-btn">
+                  <svg class="blog__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                </div>
+              </div>
+              <div class="blog__service blog__service--price">
+                <h4 class="blog__service-title">Базовый</h4>
+                <div class="blog__service-card">
+                  <svg class="blog__service-icon blog__service-icon--card"><use xlink:href="img/sprites.svg#cart-price"></use></svg>
+                </div>
+                <p class="blog__service-text">
+                  <span class="blog__service-icon blog__service-icon--price blog__service-icon--xmark">
+                    <i class=" fa-solid fa-xmark"></i>
+                  </span>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__service-text">
+                  <span class="blog__service-icon blog__service-icon--price blog__service-icon--xmark">
+                    <i class=" fa-solid fa-xmark"></i>
+                  </span>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__service-text">
+                  <span class="blog__service-icon blog__service-icon--price blog__service-icon--xmark">
+                    <i class=" fa-solid fa-xmark"></i>
+                  </span>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__price">от 300$</p>
+                <button class="btn blog__portfolio-btn blog__portfolio-btn--left">Подробнее</button>
+                <div class="blog__center-btn">
+                  <svg class="blog__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                </div>
+              </div>
+              <div class="blog__service blog__service--price">
+                <h4 class="blog__service-title">Про</h4>
+                <div class="blog__service-card">
+                  <svg class="blog__service-icon blog__service-icon--card"><use xlink:href="img/sprites.svg#cart-price"></use></svg>
+                </div>
+                <p class="blog__service-text">
+                  <svg class="blog__service-icon blog__service-icon--price"><use xlink:href="img/sprites.svg#check"></use></svg>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__service-text">
+                  <svg class="blog__service-icon blog__service-icon--price"><use xlink:href="img/sprites.svg#check"></use></svg>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__service-text">
+                  <svg class="blog__service-icon blog__service-icon--price"><use xlink:href="img/sprites.svg#check"></use></svg>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__price">от 300$</p>
+                <button class="btn blog__portfolio-btn blog__portfolio-btn--left">Подробнее</button>
+                <div class="blog__center-btn">
+                  <svg class="blog__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                </div>
+              </div>
+              <div class="blog__service blog__service--price">
+                <h4 class="blog__service-title">Максимальный</h4>
+                <div class="blog__service-card">
+                  <svg class="blog__service-icon blog__service-icon--card"><use xlink:href="img/sprites.svg#cart-price"></use></svg>
+                </div>
+                <p class="blog__service-text">
+                  <svg class="blog__service-icon blog__service-icon--price"><use xlink:href="img/sprites.svg#check"></use></svg>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__service-text">
+                  <svg class="blog__service-icon blog__service-icon--price"><use xlink:href="img/sprites.svg#check"></use></svg>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__service-text">
+                  <span class="blog__service-icon blog__service-icon--price blog__service-icon--xmark">
+                    <i class=" fa-solid fa-xmark"></i>
+                  </span>
+                  <span>Lorem ipsum dolor sit amet</span>
+                </p>
+                <p class="blog__price">от 300$</p>
+                <button class="btn blog__portfolio-btn blog__portfolio-btn--left">Подробнее</button>
+                <div class="blog__center-btn">
+                  <svg class="blog__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog">
+        <div class="container">
+          <h2 class="blog__title">Карта</h2>
+          <p class="blog__sub-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, odio elementum adipiscing orci. Pellentesque quisque eros, aenean malesuada diam, accumsan elementum at. Risus et odio nunc morbi mi integer id urna. Tempor ut sagittis egestas nunc vitae. Elit sed varius ut malesuada.</p>
+        </div>
+        <div class="blog__content">
+          <div class="container">
+            <div class="blog__inner blog__inner--map">
+              
+              <svg width="" height="556" viewBox="0 0 1238 556" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M91 556V549L83.5 542.5L80.5 535L75 531L80.5 528C69.3 528 65.1667 522.667 64.5 520L51 522.5V511L40.5 506H31L23.5 494.5L12.5 492L15 481.5L0 461.5L3 455H9.5L15 458.5L23.5 450H36.5L46.5 446.5C67.3 446.5 64.5 437.5 51 440L75 432C75 424.4 88.3333 422.833 95 423V415.5L91 412L80.5 408.5C80.5 408.5 81 400 80.5 399C80 398 64.5 400 64.5 399C64.5 398 67 393 67 392.5C67 392 59 395 60.5 392.5C62 390 62 380.687 64.5 378C67 375.312 68.1667 363 60.5 363.5C52.9827 363.99 51.5544 361.116 51.0302 360.061L51 360C50.5 359 56.9242 355.591 60.5 352.5C63.1134 350.241 66.5 347 67 346.5C67.5 346 74 356 75 352.5C76 349 80.6667 346.5 83.5 346.5C83.5 346.5 80.5 330.5 80.5 329C80.5 327.5 94.7562 320.643 94.7562 320.643C78.9512 314.129 80.6667 306.167 83.5 303C86.3333 299.833 95.3758 292.634 104 287.5C112.484 282.45 125 277 127 277C129 277 144 280 145.5 279.5C147 279 134.5 269.5 140 268C145.5 266.5 141.5 264.5 157.5 265.5C173.5 266.5 186 262 189 255.5C192 249 191 247 192 244C193 241 203 248 203 244C203 240 201.5 233 203 233C204.5 233 206.5 238.5 211 233C215.5 227.5 216.633 225.652 221.5 222.5C226.891 219.008 231.034 219.38 237 217C239.358 216.06 243 214.5 243 214.5C243 214.5 239.5 208.5 239.5 207C239.5 205.5 245.848 202.694 250.5 201.5C255.985 200.092 259.418 202.454 265 201.5C270.723 200.521 280 195 279 196.5C278 198 274.5 201.5 274.5 201.5C274.5 211.9 281.5 211.833 285 210.5C285 210.5 298.5 227 300 231C301.5 235 295 233 295 233C291.428 250.86 251.132 238.2 246.6 225.302C247.145 227.009 249.633 235.502 246.5 239.5C243.968 242.731 240.049 241.251 237 244C234.386 246.357 233 248.5 232 251.5C231 254.5 234 253 234.5 255.5C235 258 235.013 259.727 237 261C238.973 262.264 240.921 262.081 243 261C245.259 259.826 245 257.5 246.5 255.5C248 253.5 241 254.5 243 251.5C245 248.5 244.864 249.251 246.5 248.5C248.984 247.36 251.5 246 253.5 248.5C255.5 251 254.5 252.5 256 255.5C257.5 258.5 259.97 254.33 262 255.5C264.12 256.722 260.6 257.4 265 261C269.4 264.6 269.5 250.5 270.5 248.5C271.5 246.5 292.5 247.5 296.5 246.5C300.5 245.5 302.247 249.034 306 248.5C309.718 247.971 314 247 314.5 244C315 241 314 234 314.5 233C315 232 323 234 324 233C325 232 319 226 320.5 225C322 224 334.5 228.5 335 230.5C335.5 232.5 336 239 335 239.5C334 240 326 235 324 239.5C322 244 330 244 335 248.5C347 234.1 365 236.5 372.5 239.5C372.5 239.5 379.5 233 381.5 233C383.5 233 387.5 235 388 235.5C388.5 236 382 238 381.5 239.5C381 241 388 243.5 390 242.5C392 241.5 391 240.5 394 239.5C397 238.5 415 239.5 415 239.5C415 239.5 419 233.5 420 233C421 232.5 418 239 420 239.5C422 240 431.38 236.916 431.5 235.5C431.62 234.084 429 231 428 230.5C427 230 424 230.5 422.5 230.5C421 230.5 419 223 420 222.5C421 222 431.5 225 431.5 225L436.5 230.5L455.5 233C455.5 233 476.5 246.5 479.5 246.5C482.5 246.5 484 240 483.5 239.5C483 239 471 234 470.5 233C470 232 469.5 219.5 473.5 217C477.5 214.5 484.5 209.5 485.5 208.5C486.5 207.5 494 193 495.5 191.5C497 190 503.5 196 504 196.5C504.5 197 497 198.5 493.5 200C490 201.5 504 204 504 204V210.5L500 214.5L507 222.5L504 239.5C504 239.5 512.5 242.5 512.5 244C512.5 245.5 508.5 255.5 507 255.5C505.5 255.5 500 261 500 261C500 261 484.5 259 483.5 261C482.5 263 509.5 264 516 258.5C516 258.5 514.5 252 516 251.5C517.5 251 521 248.5 521 248.5C521 248.5 519.293 246.861 521 242.5C522.707 238.139 537 241 537.5 242.5C538 244 537.5 248.5 537.5 248.5L540 251.5H549C549 251.5 542.5 247.938 542.5 246.5V239.5C531.5 233 518 240.5 516 239.5C514 238.5 516 233 516 233C516 233 512.5 226 512.5 225C512.5 224 516 222.5 516 222.5C516 222.5 509.5 211.5 510 210.5C510.5 209.5 516 207 516 207C516 207 518 200.5 518.5 200C519 199.5 524.264 202.94 524.5 204C524.736 205.06 521 214.5 521 214.5L527.5 217H537.5C536.7 214.2 528.5 213 527.5 212C526.5 211 536 208.5 536 208.5C536 208.5 530 204 530.5 203.5C531 203 534.5 203 534.5 203L536 201H540L559 208.5V205.5C559 205.5 545.5 196.5 545.5 194.5C545.5 192.5 546 190.5 547 190C548 189.5 573.5 185.5 573.5 185.5C573.5 185.5 565 180.5 565.5 178.5C566 176.5 586.5 165 589.5 165C592.5 165 595.5 164 595.5 164V158H605L609 156H612L609 152L616.5 150L610.5 143.5C613.3 139.1 625.667 138 631.5 138L640 141L649.5 136.5L667 138L676.5 152L674 159V163.5L667 172L666 176L670.5 174.5L679 164.5L678 158.5L681 152L685.5 155V160L692.5 158.5L698 152L705 151.5H725L730.5 146.5L734.5 138L742 134.5H754L759.5 136.5L764.5 140L768 143H791.5L781.5 133L792.5 132.5V127.5L796.5 127L797.5 124.5L804 123L791 117H788L789.5 112.5L784.5 112L782.5 107.5L775 112.5L770.5 108.5L764.5 109.5L763.5 107L768 104L779.5 103L783.5 104L787 108.5L798.5 107L803.5 103.5V107.5L807.5 104L813 108.5L814.5 104L805.5 100L813 94.5L836 93L838 79.5L848 74.5L860.5 76L869 59.5L882.5 54L860.5 50.5L864 36L892 16L904.5 15L892 10L894.5 5H901.5L907 0L910 3.5L911.5 6.5H931.5L933.5 10.5L929.5 15L921.5 19L920.5 22L921.5 24.5L911.5 25.5L912 27.5L922.5 28.5C931.3 25.3 936.167 31.1667 937.5 34.5L936.5 38.5H941.5L943 35.5L945.5 30L957 31.5L965.5 28.5L972.5 29.5L971 34L967 38.5H978.5L979 44L990 47V49.5L1014 61L1005 63.5L1006.5 70L1015.5 74L1008 75.5L1012 77V78H1018V80L1014 81L1044 93L1049 92L1043.5 89.5L1045 87.5H1054.5L1057.5 90L1075.5 91.5L1072.5 96L1098.5 98L1095 105H1098.5L1101.5 107.5L1110.5 108.5L1121.5 110L1120 115L1133.5 119L1154 129.5L1119 128L1063.5 121.5L1054 114.5L1044.5 114L1043.5 110L1039 106L999.5 82L978 77.5L977.5 74L974 77L975 80L989 83L1002.5 93L999.5 95H991.5L986.5 93L984 101.5L1013.5 118.5L1018.5 115.5L1023 118.5L1022 120.5L1020 123L1022 125.5V131.5L1018 132V127.5L1015 129.5L1008.5 129V132L1004.5 133.5V136.5L1010 138.5L1008.5 149.5L998.5 152L994.5 156.5V161.5L1032.5 197L1038 209C1040 218.6 1048.17 213 1052 209H1056L1059.5 212L1066.5 213.5L1058.5 206.5L1060 206L1068.5 209L1071.5 209.5L1067.5 204.5H1070.5V202.5L1064 198L1065.5 196.5L1084.5 195.5L1087.5 194.5H1091.5L1093.5 198L1111.5 200.5C1121.1 208.9 1136.83 212.667 1143.5 213.5C1153.1 220.3 1160.83 222 1163.5 222C1170.3 235.6 1188.67 243 1197 245L1233.5 278.5L1237.5 296L1233.5 299L1225.5 298V302L1228 305L1220.5 302L1228 310.5L1226.5 311.5L1218.5 307C1204.9 297.8 1190.17 295.833 1184.5 296V287.5L1192.5 283L1164.5 262.5H1158L1155.5 260L1158 258L1146.5 253.5L1143.5 257.5L1144.5 260V262.5L1142 265L1145.5 266.5L1146.5 270L1143.5 273L1140 274L1138 278L1128 276.5L1119.5 274L1094 276.5L1089.5 281.5L1076.5 280L1033 268H1021L1014.5 273.5H1001L991 285.5V296L996 294H1002L1022 316.5L1028 319L1024 324L1026 331L1025 332.5L1004 333.5L1001 339.5H981.5V342.5L984.5 343.5V347L980 349.5V353.5L976 359L969.5 361L968.5 366.5L934.5 375L932 370.5L910 374.5L902.5 376.5L888.5 386H875.5L858.5 382.5L855.5 378.5H850L849 380H846.5H840L817.5 381L816 398C816 398 828 402 828.5 403C829 404 829.5 409.5 829.5 409.5C829.5 409.5 830.5 413.5 824 415C817.5 416.5 804 415 804 415L802 417H782L780.5 414L768.5 413.5L767 415H761L759 414H755L752 415V419.5L737.5 429L729 442L718.5 444L711.5 450L701 449L694.5 442L688.5 447L672.5 446L664.5 442H656.5L654 435.5L659.5 434V431.5L656.5 430V428L661 427V425.5H668V423L670 420.5L670.5 417H674V413.5H678.5L676.5 408L681.5 406V403.5L677.5 401L673 399.5L677.5 397L666.5 396L668 391L648.5 388L644.5 393L628 396L625.5 402.5H617.5L603 394L578.5 408.5H574.5L573 406.5H571L569 409.5L561 408.5L556 405L552 400.5L528.5 410.5L517 411.5L518.5 406.5L507.5 409L508.5 404.5L503 404L499 406.5L488 405V402.5L491 400.5H494.5V398L490 397V393.5L486.5 392.5V390.5H482.5L478.5 391.5L470.5 390.5L469 389H466.5L466 392L460.5 395.5C448.9 400.3 436.333 399.167 431.5 398C430.3 399.2 423 400.167 419.5 400.5C413.5 408 382.5 406 376 403L374 413L384 415.5L382 418H369.5L368 419.5H365.5V426L363.5 427L362.5 429.5L352 429V430C372.8 437.2 365 444.333 358.5 447H350L347.5 445.5H345.5L343 448.5H334L332.5 445.5L328 445V441L331 440L330 437.5L317 439L315.5 440H310.5L309.5 439L296.5 438.5L295.5 442H286.5L284.5 437.5L273.5 439L274.5 437.5L278 435V433L271.5 432L272.5 426L261.5 426.5L260.5 422.5H244.5V418C241.3 421.6 225.5 423.167 218 423.5C217.2 427.1 209.667 428 206 428L204 435L200.5 436.5H195L194.5 433.5L193 433L194 427H190.5L189.5 430L186 431L185 433H179.5L178.5 435H175.5L174.5 437.5V445H169L168.5 446.5H163.5V448.5H161V453H166V458H163.5L162.5 459.5H160V462.5H169L172.5 467V478L168.5 480L167 482L169 483L172.5 485L171.5 488.5L164 488V490.5H158L156.5 488.5L153 491L151.5 493.5L145 493L142 489.5H138.5L137.5 493C138.3 498.2 124.833 501.5 118 502.5L120 509.5L121.5 511L120.5 519L112.5 525L108 532.5L110.5 539.5L113 546L112.5 553L105.5 554.5L91 556Z" fill="url(#paint0_linear_264_1915)"/>
+              <defs>
+              <linearGradient id="paint0_linear_264_1915" x1="930" y1="33.9999" x2="42" y2="488" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#131E3A"/>
+              <stop offset="0.46875" stop-color="#1C2C55"/>
+              <stop offset="1" stop-color="#142142"/>
+              </linearGradient>
+              </defs>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog">
+        <div class="container">
+          <h2 class="blog__title">Наши клиенты</h2>
+        </div>
+        <div class="blog__content">
+          <div class="container">
+            <div class="blog__inner blog__inner--partenaire">
+              <div class="blog__partenaire">
+                <div class="blog__partenaire-slider">
+                  <img class="blog__partenaire-img" src="img/partenaire1.png" alt="">
+                  <img class="blog__partenaire-img" src="img/partenaire2.png" alt="">
+                  <img class="blog__partenaire-img" src="img/partenaire3.png" alt="">
+                  <img class="blog__partenaire-img" src="img/partenaire4.png" alt="">
+                  <img class="blog__partenaire-img" src="img/partenaire1.png" alt="">
+                  <img class="blog__partenaire-img" src="img/partenaire3.png" alt="">
+                  <img class="blog__partenaire-img" src="img/partenaire2.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog">
+        <div class="container">
+          <h2 class="blog__title">Отзывы</h2>
+        </div>
+        <div class="blog__content">
+          <div class="container">
+            <div class="blog__inner ">
+              <div class="blog__reviews">
+                <div class="blog__reviews-slider">
+                  <div>
+                    <div class="blog__reviews-item">
+                      <img class="blog__reviews-img" src="img/doc.svg" alt="">
+                      <div class="blog__reviews-description">
+                        <p class="blog__reviews-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit tristique ipsum, nec elit nullam. Nec, sit accumsan quam viverra at id ut consectetur. Malesuada arcu ut montes, enim, pulvinar elementum adipiscing ut. Sed morbi eget nibh nec nunc at. Nunc phasellus tempor tempus euismod viverra. Tristique leo, ipsum purus magna. Nec lobortis sed ac eget fringilla. Rutrum gravida facilisi eu ac amet quam maecenas. Morbi tempor non faucibus velit id accumsan egestas enim. Purus tellus diam pharetra pretium velit mattis. Ac velit condimentum diam arcu quam. Feugiat dapibus lectus arcu donec. In arcu, in amet, nulla vitae. Pulvinar felis duis amet non. Urna, aliquet mauris vitae leo nibh nunc, vel et viverra. In phasellus pulvinar quis in suspendisse mattis. Rutrum fermentum, vulputate tincidunt aliquam amet. Urna, proin egestas in praesent sed. Nunc vitae sem vitae dictum placerat faucibus mi ultrices nibh. Commodo id felis varius sit pharetra. Nam suspendisse posuere in gravida nunc et. Tristique purus id ullamcorper lectus semper mi, cras. Tortor pellentesque leo vel auctor adipiscing. Id bibendum congue pretium id. Lorem mi dictumst vitae in turpis gravida lectus. Diam tempor sit auctor ornare eget. Felis arcu bibendum aliquam lacus et. </p>
+                        <p class="blog__reviews-text">Netus scelerisque porta amet sapien feugiat neque, egestas nec. Tristique diam, vitae semper tempor, dui egestas parturient est sapien. Mollis sagittis hendrerit hac sit velit elit tellus lacus faucibus. Nibh turpis gravida erat nibh vitae faucibus. Eu non ullamcorper tempus consectetur. Porttitor scelerisque varius commodo eget gravida aliquet tincidunt. Orci odio risus cursus feugiat cum bibendum. Pulvinar id nec, sed elit. Ipsum in et urna, in dapibus. Turpis volutpat, sit vel amet mattis turpis. Proin amet, id eu nunc quam habitant maecenas tellus nisl. Sed nibh maecenas non porta. Pretium nullam enim libero dictumst dapibus. Blandit vitae donec facilisi id odio aliquam cras. Semper varius ultrices interdum tortor, in risus. Dictumst volutpat id elementum feugiat mauris commodo dolor montes. Tortor at tortor, arcu rhoncus dictumst sit. </p>
+                        <p class="blog__reviews-text blog__reviews-text--strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit tristique ipsum, nec elit nullam. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="blog__reviews-item">
+                      <img class="blog__reviews-img" src="img/doc.svg" alt="">
+                      <div class="blog__reviews-description">
+                        <p class="blog__reviews-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit tristique ipsum, nec elit nullam. Nec, sit accumsan quam viverra at id ut consectetur. Malesuada arcu ut montes, enim, pulvinar elementum adipiscing ut. Sed morbi eget nibh nec nunc at. Nunc phasellus tempor tempus euismod viverra. Tristique leo, ipsum purus magna. Nec lobortis sed ac eget fringilla. Rutrum gravida facilisi eu ac amet quam maecenas. Morbi tempor non faucibus velit id accumsan egestas enim. Purus tellus diam pharetra pretium velit mattis. Ac velit condimentum diam arcu quam. Feugiat dapibus lectus arcu donec. In arcu, in amet, nulla vitae. Pulvinar felis duis amet non. Urna, aliquet mauris vitae leo nibh nunc, vel et viverra. In phasellus pulvinar quis in suspendisse mattis. Rutrum fermentum, vulputate tincidunt aliquam amet. Urna, proin egestas in praesent sed. Nunc vitae sem vitae dictum placerat faucibus mi ultrices nibh. Commodo id felis varius sit pharetra. Nam suspendisse posuere in gravida nunc et. Tristique purus id ullamcorper lectus semper mi, cras. Tortor pellentesque leo vel auctor adipiscing. Id bibendum congue pretium id. Lorem mi dictumst vitae in turpis gravida lectus. Diam tempor sit auctor ornare eget. Felis arcu bibendum aliquam lacus et. </p>
+                        <p class="blog__reviews-text">Netus scelerisque porta amet sapien feugiat neque, egestas nec. Tristique diam, vitae semper tempor, dui egestas parturient est sapien. Mollis sagittis hendrerit hac sit velit elit tellus lacus faucibus. Nibh turpis gravida erat nibh vitae faucibus. Eu non ullamcorper tempus consectetur. Porttitor scelerisque varius commodo eget gravida aliquet tincidunt. Orci odio risus cursus feugiat cum bibendum. Pulvinar id nec, sed elit. Ipsum in et urna, in dapibus. Turpis volutpat, sit vel amet mattis turpis. Proin amet, id eu nunc quam habitant maecenas tellus nisl. Sed nibh maecenas non porta. Pretium nullam enim libero dictumst dapibus. Blandit vitae donec facilisi id odio aliquam cras. Semper varius ultrices interdum tortor, in risus. Dictumst volutpat id elementum feugiat mauris commodo dolor montes. Tortor at tortor, arcu rhoncus dictumst sit. </p>
+                        <p class="blog__reviews-text blog__reviews-text--strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit tristique ipsum, nec elit nullam. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="blog__reviews-item">
+                      <img class="blog__reviews-img" src="img/doc.svg" alt="">
+                      <div class="blog__reviews-description">
+                        <p class="blog__reviews-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit tristique ipsum, nec elit nullam. Nec, sit accumsan quam viverra at id ut consectetur. Malesuada arcu ut montes, enim, pulvinar elementum adipiscing ut. Sed morbi eget nibh nec nunc at. Nunc phasellus tempor tempus euismod viverra. Tristique leo, ipsum purus magna. Nec lobortis sed ac eget fringilla. Rutrum gravida facilisi eu ac amet quam maecenas. Morbi tempor non faucibus velit id accumsan egestas enim. Purus tellus diam pharetra pretium velit mattis. Ac velit condimentum diam arcu quam. Feugiat dapibus lectus arcu donec. In arcu, in amet, nulla vitae. Pulvinar felis duis amet non. Urna, aliquet mauris vitae leo nibh nunc, vel et viverra. In phasellus pulvinar quis in suspendisse mattis. Rutrum fermentum, vulputate tincidunt aliquam amet. Urna, proin egestas in praesent sed. Nunc vitae sem vitae dictum placerat faucibus mi ultrices nibh. Commodo id felis varius sit pharetra. Nam suspendisse posuere in gravida nunc et. Tristique purus id ullamcorper lectus semper mi, cras. Tortor pellentesque leo vel auctor adipiscing. Id bibendum congue pretium id. Lorem mi dictumst vitae in turpis gravida lectus. Diam tempor sit auctor ornare eget. Felis arcu bibendum aliquam lacus et. </p>
+                        <p class="blog__reviews-text">Netus scelerisque porta amet sapien feugiat neque, egestas nec. Tristique diam, vitae semper tempor, dui egestas parturient est sapien. Mollis sagittis hendrerit hac sit velit elit tellus lacus faucibus. Nibh turpis gravida erat nibh vitae faucibus. Eu non ullamcorper tempus consectetur. Porttitor scelerisque varius commodo eget gravida aliquet tincidunt. Orci odio risus cursus feugiat cum bibendum. Pulvinar id nec, sed elit. Ipsum in et urna, in dapibus. Turpis volutpat, sit vel amet mattis turpis. Proin amet, id eu nunc quam habitant maecenas tellus nisl. Sed nibh maecenas non porta. Pretium nullam enim libero dictumst dapibus. Blandit vitae donec facilisi id odio aliquam cras. Semper varius ultrices interdum tortor, in risus. Dictumst volutpat id elementum feugiat mauris commodo dolor montes. Tortor at tortor, arcu rhoncus dictumst sit. </p>
+                        <p class="blog__reviews-text blog__reviews-text--strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit tristique ipsum, nec elit nullam. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form action="" class="blog__form">
+        <div class="container">
+          <h2 class="blog__form-title">Понравились наши работы или нужна помощь с проектом?</h2>
+          <div class="blog__input-group">
+            <input class="blog__input" type="text" placeholder="Имя">
+            <input class="blog__input" type="text" placeholder="E-mail">
+            <button class="btn blog__form-btn">Отправить</button>
+          </div>
+        </div>
+      </form>
       
-
-
     
       <!-- <div class="container">
         <h1 style="font-family: ConthraxSB">Партнерам</h1>
