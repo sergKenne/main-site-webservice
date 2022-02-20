@@ -19,13 +19,178 @@
   <div class="wrapper">
     @include('partials/header.html')
     <main>
-      <div class="container">
-        <h1 style="font-family: ConthraxSB">Партнерам</h1>
+      @include('partials/banner.html')
+
+      <div class="row">
+        <div class="container">
+          <h2 class="row__title">О нас</h2>
+        </div>
+        <div class="row__content">
+          <div class="container">
+            <div class="row__inner row__inner--about">
+              <img src="img/row-about.svg" alt="" class="row__about-img">
+              <div class="row__description">
+                <p class="row__text"><span class="row__text--color">Digital-агентство</span> полного цикла с упором на веб-разработку и создание сложных проектов. Знаем, как сделать так, чтобы сайт был не только удобным, но и красивым.</p>
+                <button class="btn row__btn">Обсудить проект</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
-   
-    <!-- <svg class="sidebar__icon"><use xlink:href="img/sprites.svg#users"></use></svg> -->
+
+      <div class="row">
+        <div class="container">
+          <h2 class="row__title">Этапы работы</h2>
+        </div>
+        <div class="row__content row__content--work">
+          <div class="container">
+            <div class="row__inner row__inner--work">
+              <img src="img/work-slide1.png" alt="">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container">
+          <h2 class="row__title">Портфолио</h2>
+        </div>
+        <div class="row__content">
+          <div class="container">
+            <div class="row__inner">
+              <div class="row__nav">
+                <button class="btn row__nav-item active">Все сайты</button>
+                <button class="btn row__nav-item">Медиа портал</button>
+                <button class="btn row__nav-item">ERP-система</button>
+                <button class="btn row__nav-item">Корпоративный сайт</button>
+                <button class="btn row__nav-item">Веб-сайт</button>
+              </div>
+              <div class="row__portfolio">
+                <div class="row__portfolio-item">
+                  <img src="img/portfolio1.svg" alt="" class="row__portfolio-img">
+                  <div class="row__portfolio-over">
+                    <h4 class="row__portfolio-title">Карелия Гид</h4>
+                    <p class="row__portfolio-text">Веб-сайт</p>
+                    <button class="btn row__portfolio-btn"><span>Смотреть</span><svg class="row__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
+                  </div>
+                </div>
+                <div class="row__portfolio-item">
+                  <img src="img/portfolio2.svg" alt="" class="row__portfolio-img">
+                  <div class="row__portfolio-over">
+                    <h4 class="row__portfolio-title">Карелия Гид</h4>
+                    <p class="row__portfolio-text">Веб-сайт</p>
+                    <button class="btn row__portfolio-btn"><span>Смотреть</span><svg class="row__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
+                  </div>
+                </div>
+                <div class="row__portfolio-item">
+                  <img src="img/portfolio1.svg" alt="" class="row__portfolio-img">
+                  <div class="row__portfolio-over">
+                    <h4 class="row__portfolio-title">Карелия Гид</h4>
+                    <p class="row__portfolio-text">Веб-сайт</p>
+                    <button class="btn row__portfolio-btn"><span>Смотреть</span><svg class="row__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container">
+          <h2 class="row__title">Продукты</h2>
+        </div>
+        <div class="row__content">
+          <div class="container">
+            <div class="row__inner row__inner--product">
+              <img src="img/prod.svg" alt="" class="row__about-img">
+              <div class="row__description">
+                <h3 class="row__subtitle">ERP-система</h3>
+                <p class="row__text row__text--product">Единый комплекс, в котором хранятся и обрабатываются практически все критически 
+важные данные организации. Под ними понимают информацию, без которой нормальное функционирование предприятия невозможно.</p>
+                <p class="row__text row__text--strong">Решение, позволяющее бесшовно управлять и организовывать как управление ресурсами предприятия, так и документооборот.</p>
+                <button class="btn row__portfolio-btn row__portfolio-btn--left"><span>Смотреть</span><svg class="row__portfolio-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="container">
+          <h2 class="row__title">Услуги</h2>
+          <p class="row__sub-description">Специализируемся на сложных процессах и точечных решениях для вашего бизнеса.</p>
+        </div>
+        <div class="row__content">
+          <div class="container">
+            <div class="row__inner row__inner--service">
+              <div class="row__service">
+                <h4 class="row__service-title">Разрабатываем</h4>
+                <p class="row__service-text">
+                  <span>Корпоративные сайты</span>
+                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                </p>
+                <p class="row__service-text">
+                  <span>Интернет-магазины</span>
+                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                </p>
+                <p class="row__service-text">
+                  <span>ERP-системы</span>
+                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                </p>
+                <div class="row__center-btn">
+                  <svg class="row__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                </div>
+              </div>
+              <div class="row__service">
+                <h4 class="row__service-title">Тестируем</h4>
+                <p class="row__service-text">
+                  <span>Администрирование</span>
+                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                </p>
+                <p class="row__service-text">
+                  <span>Функциональное тестирование</span>
+                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                </p>
+                <p class="row__service-text">
+                  <span>Развитие существующих Web-приложений</span>
+                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                </p>
+                <div class="row__center-btn">
+                  <svg class="row__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                </div>
+              </div>
+              <div class="row__service">
+                <h4 class="row__service-title">Повышаем эффективность</h4>
+                <p class="row__service-text">
+                  <span>Внедрение CRM</span>
+                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                </p>
+                <p class="row__service-text">
+                  <span>Внедрение систем учета</span>
+                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                </p>
+                <p class="row__service-text">
+                  <span>Автоматизация бизнес-процессов</span>
+                  <svg class="row__service-icon"><use xlink:href="img/sprites.svg#go-next"></use></svg>
+                </p>
+                <div class="row__center-btn">
+                  <svg class="row__service-down"><use xlink:href="img/sprites.svg#icon-down"></use></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
     
+      <!-- <div class="container">
+        <h1 style="font-family: ConthraxSB">Партнерам</h1>
+      </div> -->
+    </main>
     @include('partials/footer.html')
     <!-- @include('html/h1.html') пример инклуда -->
   </div>

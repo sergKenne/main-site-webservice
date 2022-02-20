@@ -1,0 +1,85 @@
+
+.banner {
+    &__slider-item {
+        //height: 720px;
+        background: #101E42;
+    }
+    &__title {
+        color: #ffffff;
+        font-weight: 600;
+        font-family: ConthraxSB;
+        font-size: 3rem;
+        line-height: 4rem;
+        padding-top: 200px;
+        &--color {
+            color: #D56316;
+            text-decoration: underline;
+        }
+    }
+    &__description {
+        color: #FAFAFA;
+        font-size: 1.125rem;
+        margin-top: 1.25rem;
+        line-height: 1.5625rem;
+    }
+    &__btn-group {
+        margin-top: 48px;
+    }
+    &__btn-item {
+        margin-right: 20px;
+    }
+    &__card {
+        margin-top: 5.5rem;
+        margin-bottom: 3.5rem;
+    }
+    &__card-inner {
+        display: flex;
+        //flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: space-between;
+        gap: 20px;
+    }
+    &__card-item {
+        background: #F4F4F4;
+        box-shadow: 0px 1px 2px #D56316;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    &__card-text {
+        font-weight: 600;
+        font-size: .875rem;
+        line-height: 19px;
+        color: #D56316;
+        margin-left: 20px;
+    }
+    //SOME STYLES FOR SLICK.CSS
+    .slick-dots li button {
+        height: 10px;
+        width: 10px;
+        border: 2px solid #D56316;
+        border-radius: 50%;
+    }
+    .slick-dots {
+        bottom: 15px;
+    }
+
+    .slick-dots li.slick-active button {
+        background-color: #D56316;
+    }
+
+    &.slick-dotted.slick-slider {
+        margin-bottom: 0px!important;
+    }
+
+    // .slick-next {
+    //     right: 45px;
+    // }
+    // .slick-prev {
+    //     left: 45px;
+    //     z-index: 999;
+    // }
+}
